@@ -1,5 +1,5 @@
 from .base import BaseParser
 
-class GeekJobParser(BaseParser):
+class GetMatchParser(BaseParser):
     def __init__(self):
-        super().__init__("geekjob.ru")
+        super().__init__("getmatch.ru")
